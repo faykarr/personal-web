@@ -1,0 +1,8 @@
+/* Change position when the card project with class shadow on hover and change the pointer */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    /* Add the transition animation */
+    transition: all 0.3s ease;
+}
